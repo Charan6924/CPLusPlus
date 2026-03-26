@@ -1,0 +1,10 @@
+# Binaries
+hello
+standard
+
+# Debug symbols
+*.dSYM/
+
+# Object files
+*.o
+*.out
