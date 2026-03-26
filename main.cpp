@@ -1,5 +1,7 @@
 #include <iostream>
 
+int add(int a, int b);
+
 int getValue() {
     int y{};
     std::cout << "Enter a number : ";
@@ -9,7 +11,6 @@ int getValue() {
 
 int main()
 {
-    int num{getValue()};
-    std::cout << "The number multiplied by 2 is : " << num*2 << "\n";
+    std::cout << add(4,5);
     return 0;
 }
