@@ -4,8 +4,10 @@ standard
 
 # Debug symbols
 *.dSYM/
-CMakeLists.txt
+
 # Object files
 *.o
 *.out
 /abuild/
+
+CMakeLists.txt
