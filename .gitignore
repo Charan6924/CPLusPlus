@@ -11,3 +11,4 @@ standard
 /abuild/
 
 CMakeLists.txt
+/Makefile
