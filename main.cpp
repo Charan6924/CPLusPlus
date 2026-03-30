@@ -1,16 +1,10 @@
 #include <iostream>
-
-int add(int a, int b);
-
-int getValue() {
-    int y{};
-    std::cout << "Enter a number : ";
-    std::cin >> y;
-    return y;
-}
+#include "io.h"
 
 int main()
 {
-    std::cout << add(4,5);
+    int x{readNumber()};
+    int y{readNumber()};
+    writeAnswer(x+y);
     return 0;
 }
