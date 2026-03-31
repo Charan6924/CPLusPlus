@@ -1,0 +1,2 @@
+﻿2026-03-31 12:31:04.126 DEBUG [21123433] [main@15] main called
+2026-03-31 12:31:04.128 DEBUG [21123433] [getUserInput@6] getUserInput called
