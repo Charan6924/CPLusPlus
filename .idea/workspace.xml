@@ -13,9 +13,8 @@
     <generated />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a83dc4d0-f1a8-4284-a377-df428f61330d" name="Changes" comment="finished chapter 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/io.cpp" afterDir="false" />
+    <list default="true" id="a83dc4d0-f1a8-4284-a377-df428f61330d" name="Changes" comment="learnt debugging">
+      <change beforePath="$PROJECT_DIR$/add.h" beforeDir="false" afterPath="$PROJECT_DIR$/add.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Charan6924"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Charan6924/CPLusPlus.git",
+    "accountId": "8060c0a3-093c-47aa-a0a2-bb02c4e46601"
+  }
+}]]></component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="EdWQrnry" />
   </component>
@@ -78,7 +89,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Native Application.debug">
+  <component name="RunManager" selected="Makefile Target.main">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -128,7 +139,7 @@
       <workItem from="1774491132826" duration="76000" />
       <workItem from="1774491227160" duration="1829000" />
       <workItem from="1774891027866" duration="2473000" />
-      <workItem from="1774974106060" duration="2043000" />
+      <workItem from="1774974106060" duration="5996000" />
     </task>
     <task id="LOCAL-00001" summary="finished chapter 2">
       <option name="closed" value="true" />
@@ -138,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774893112522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="learnt debugging">
+      <option name="closed" value="true" />
+      <created>1774976161919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774976161919</updated>
+    </task>
+    <task id="LOCAL-00003" summary="learnt debugging">
+      <option name="closed" value="true" />
+      <created>1774976168573</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774976168573</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,32 +184,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished chapter 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished chapter 2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>13</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>15</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>4</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>9</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="learnt debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="learnt debugging" />
   </component>
 </project>

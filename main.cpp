@@ -1,19 +1,22 @@
 #include <iostream>
 
-int readNumber(int x) {
-    std::cout << "Please enter a number : ";
-    std::cin >> x;
-    return x;
-}
+int main()
+{
+    std::cout << "Enter the height of the tower : ";
+    int height{};
+    std::cin >> height;
 
-void writeAnswer2(int x) {
-    std::cout << "The sum is : " << x << "\n";
-}
+    std::cout << "At 0 seconds, the height of the ball is : " << height << " metres.\n";
 
-int main() {
-    int x{};
-    readNumber(x);
-    x = x + readNumber(x);
-    writeAnswer2(x);
+    for (int x{1}; x <= 5; x++)
+    {
+        double distance_fallen{ 9.8 * x * x / 2 };
+        double current_height{ static_cast<double>(height) - distance_fallen };
+        if (current_height > 0.0)
+            std::cout << "At " << x << " seconds, the height of the ball is : " << current_height << " metres.\n";
+        else
+            std::cout << "The ball is at the ground.";
+    }
+
     return 0;
 }
