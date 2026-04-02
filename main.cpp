@@ -1,20 +1,21 @@
+#include <bitset>
 #include <iostream>
-#include <string>
 
-constexpr bool isEven(int x) {
-    return (x%2 == 0);
+std::bitset<4> rotl(std::bitset<4> bits) {
+    bool fourth{bits.test(3)};
+    bits <<= 1;
+    if (fourth) {
+        bits.set(0);
+    }
+    return bits;
 }
 
 int main()
 {
-    std::cout << "Enter a number : ";
-    int a{};
-    std::cin >> a;
-    if (isEven(a)) {
-        std::cout << "The number is even";
-        return 0;
-    }
-    std::cout << "The number is odd";
-    return 0;
+    std::bitset<4> bits1{1<<1 };
+    std::bitset<4> bits2{0b0000};
+    bits2 ^= bits1;
+    std::cout << bits2;
 
+    return 0;
 }
