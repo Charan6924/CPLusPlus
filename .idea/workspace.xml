@@ -13,7 +13,8 @@
     <generated />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a83dc4d0-f1a8-4284-a377-df428f61330d" name="Changes" comment="finished chapter 6">
+    <list default="true" id="a83dc4d0-f1a8-4284-a377-df428f61330d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/constants.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -136,7 +137,8 @@
       <workItem from="1774891027866" duration="2473000" />
       <workItem from="1774974106060" duration="6604000" />
       <workItem from="1775074265571" duration="6704000" />
-      <workItem from="1775155695385" duration="2605000" />
+      <workItem from="1775155695385" duration="4732000" />
+      <workItem from="1775235346521" duration="1377000" />
     </task>
     <task id="LOCAL-00001" summary="finished chapter 2">
       <option name="closed" value="true" />
@@ -178,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775080970414</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finished chapter O">
+      <option name="closed" value="true" />
+      <created>1775162433805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775162433805</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +210,7 @@
     <MESSAGE value="learnt debugging" />
     <MESSAGE value="finished chapter 4" />
     <MESSAGE value="finished chapter 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished chapter 6" />
+    <MESSAGE value="finished chapter O" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished chapter O" />
   </component>
 </project>

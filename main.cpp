@@ -1,21 +1,13 @@
-#include <bitset>
 #include <iostream>
 
-std::bitset<4> rotl(std::bitset<4> bits) {
-    bool fourth{bits.test(3)};
-    bits <<= 1;
-    if (fourth) {
-        bits.set(0);
-    }
-    return bits;
-}
+int accumulate(int a);
 
 int main()
 {
-    std::bitset<4> bits1{1<<1 };
-    std::bitset<4> bits2{0b0000};
-    bits2 ^= bits1;
-    std::cout << bits2;
+    std::cout << accumulate(4) << '\n'; // prints 4
+    std::cout << accumulate(3) << '\n'; // prints 7
+    std::cout << accumulate(2) << '\n'; // prints 9
+    std::cout << accumulate(1) << '\n'; // prints 10
 
     return 0;
 }
