@@ -1,19 +1,24 @@
 #include <iostream>
 
-namespace constants {
-    constexpr double pi {3.14159};
-}
-using Degrees = double;
-using Radians = double;
-double convertToRadians(Degrees degrees) {
-    return degrees * constants::pi / 180;
-}
+int main()
+{
+   int x{ 5 };
+   int& ref { x };
+   int* ptr { &x };
 
-int main() {
-    std::cout << "Enter a number in degrees : ";
-    Degrees degrees{};
-    std::cin >> degrees;
-    Radians radians {convertToRadians(degrees)};
-    std::cout << degrees << " degrees is " << radians << " radians";
-    return 0;
+   std::cout << x;
+   std::cout << ref;
+   std::cout << *ptr << '\n';
+
+   ref = 6;
+   std::cout << x;
+   std::cout << ref;
+   std::cout << *ptr << '\n';
+
+   *ptr = 7;
+   std::cout << x;
+   std::cout << ref;
+   std::cout << *ptr << '\n';
+
+   return 0;
 }
