@@ -1,22 +1,31 @@
 #include <iostream>
-#include <algorithm>
 
-void sort2(int& x, int& y) {
-    std::swap(x,y);
+template <typename T,typename U>
+struct Pair {
+    T first{};
+    U second{};
+};
+
+struct Point {
+    int first;
+    int second;
+};
+
+template <typename T>
+void print(T p) {
+    std::cout << '[' << p.first << ", " << p.second << ']';
 }
 
-int main()
-{
-    int x { 7 };
-    int y { 5 };
+int main() {
+    Pair<double, int> p1{ 4.5, 6 };
+    print(p1);
 
-    std::cout << x << ' ' << y << '\n'; // should print 7 5
+    std::cout << '\n';
 
-    sort2(x, y);
-    std::cout << x << ' ' << y << '\n'; // should print 5 7
+    Point p2 { 7, 8 };
+    print(p2);
 
-    sort2(x, y);
-    std::cout << x << ' ' << y << '\n'; // should print 5 7
+    std::cout << '\n';
 
     return 0;
 }

@@ -13,7 +13,10 @@
     <generated />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a83dc4d0-f1a8-4284-a377-df428f61330d" name="Changes" comment="Pointers make me wanna kms" />
+    <list default="true" id="a83dc4d0-f1a8-4284-a377-df428f61330d" name="Changes" comment="done chapter 12">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,6 +141,7 @@
       <workItem from="1775254529921" duration="2458000" />
       <workItem from="1775586499350" duration="1666000" />
       <workItem from="1775678801268" duration="12792000" />
+      <workItem from="1775784667229" duration="6474000" />
     </task>
     <task id="LOCAL-00001" summary="finished chapter 2">
       <option name="closed" value="true" />
@@ -219,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775703227288</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="done chapter 12">
+      <option name="closed" value="true" />
+      <created>1775784795950</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775784795950</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +258,7 @@
     <MESSAGE value="Finished chapter 8" />
     <MESSAGE value="Finished chapter 9 and 10" />
     <MESSAGE value="Pointers make me wanna kms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pointers make me wanna kms" />
+    <MESSAGE value="done chapter 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="done chapter 12" />
   </component>
 </project>
